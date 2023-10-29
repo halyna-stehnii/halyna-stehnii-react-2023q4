@@ -6,7 +6,7 @@ export type SearchResult = {
   count: number;
   next: string;
   previous: string;
-  results: any[];
+  results: Person[];
 };
 
 export type Person = {
