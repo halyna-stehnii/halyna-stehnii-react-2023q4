@@ -33,8 +33,8 @@ interface State {
   searchResults: SearchResult;
 }
 
-class App extends Component<{}, State> {
-  constructor(props: {}) {
+class App extends Component<object, State> {
+  constructor(props: object) {
     super(props);
     this.state = {
       searchTerm: '',
